@@ -6,7 +6,7 @@ export const config = {
 
 export default async function handler(req: NextRequest) {
   const url = new URL(req.url);
-  url.host = "chat.openai.com";
+  url.host = "groq.com";
   url.protocol = "https:";
   url.port = "";
 
